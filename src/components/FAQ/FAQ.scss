@@ -1,0 +1,6 @@
+@import '../../styles/settings.scss';
+
+.description:not(:empty) {
+    margin: 0 0 ($base-size * 3);
+    text-align: center;
+  }
