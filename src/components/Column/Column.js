@@ -8,9 +8,6 @@ import Icon from '../Icon/Icon';
 
 
 class Column extends React.Component {
-  // state = {
-  //   cards: this.props.cards || [],
-  // }
   static propTypes = {
     title: PropTypes.node.isRequired,
     cards: PropTypes.array,
@@ -37,21 +34,7 @@ class Column extends React.Component {
       </section>
     );
   }
-  // addCard(title){
-  //   this.setState(state => (
-  //     {
-  //       cards: [
-  //         ...state.cards,
-  //         {
-  //           key: state.cards.length ? state.cards[state.cards.length-1].key+1 : 0,
-  //           title,
-  //           icon: 'list-alt',
-  //           cards: [],
-  //         },
-  //       ],
-  //     }
-  //   ));
-  // }
+  
 }
 
 export default Column;

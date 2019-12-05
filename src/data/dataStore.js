@@ -80,6 +80,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Shoping list',
+    description: 'Things I need to buy',
+    image: 'https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+  },
+  {
+    id: 'list-3',
+    title: 'Dreams',
+    description: 'Things I dream about',
+    image: 'https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+  },
 ];
 
 const columns = [
@@ -152,6 +164,11 @@ export const faq = {
   title: 'Frequently Asked Question',
   image: 'https://images.pexels.com/photos/2162/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque.',
+};
+
+export const searchResults = {
+  title: 'Search Results',
+  icon: 'question',
 };
 
 const initialStoreData = {
