@@ -12,11 +12,13 @@ class SearchResults extends React.Component {
   static propTypes = {
     cards: PropTypes.array,
     searchString: PropTypes.string,
+    match: PropTypes.object.isRequired,
+    changeSearchString: PropTypes.func,
   }
-
+ 
   render() {
-    const {cards} = this.props;
-    
+    const {cards, match} = this.props;
+    this.props.changeSearchString(match.params.searchValue);
     return (
       <section className={styles.component}>
         <Container>
@@ -25,6 +27,7 @@ class SearchResults extends React.Component {
             <Card key={id} {...cardProps} />
           ))}
         </Container>
+        {console.log(match.params.searchValue)}
       </section>
     );
   }
