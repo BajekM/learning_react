@@ -1,8 +1,8 @@
 
-import { create, defaults } from 'http-server';
-const server = create();
+const httpServer = require('http-server');
+const server = httpServer.create();
 // const router = httpServer.router('dist/db/app.json');
-const middlewares = defaults({
+const middlewares = httpServer.defaults({
   static: 'dist',
   noCors: true,
 });
