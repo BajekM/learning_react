@@ -31,7 +31,7 @@
     "react-router-transition": "^1.4.0",
     "redux": "^4.0.1",
     "shortid": "^2.2.15",
-    "yarn": "^1.19.2"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
